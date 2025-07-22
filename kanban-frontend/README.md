@@ -55,7 +55,7 @@ A modern, feature-rich Kanban board application built with React and Vite, featu
    npm run dev
    ```
 
-## 🏗️ Build & Deploy
+
 
 ### Development
 ```bash
@@ -74,23 +74,7 @@ npm run preview:prod # Preview production build
 - **Development**: Uses `.env.local`
 - **Production**: Uses `.env.production`
 
-## 🚢 Deployment
 
-### Deploy to Vercel
-1. Connect your GitHub repository to Vercel
-2. Set environment variables in Vercel dashboard
-3. Deploy automatically on push to main branch
-
-### Deploy to Netlify
-1. Build the project: `npm run build:prod`
-2. Upload `dist/` folder to Netlify
-3. Configure environment variables
-
-### Deploy to AWS S3 + CloudFront
-1. Build: `npm run build:prod`
-2. Upload `dist/` to S3 bucket
-3. Configure CloudFront distribution
-4. Update DNS records
 
 ## 🔧 Quick Start
 
