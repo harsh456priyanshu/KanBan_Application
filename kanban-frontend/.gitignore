@@ -15,12 +15,25 @@ dist
 dist-ssr
 *.local
 
-# Environment files
+# Environment files - NEVER commit these!
+.env*
 .env
 .env.local
+.env.development
 .env.development.local
+.env.test
 .env.test.local
+.env.production
 .env.production.local
+.env.staging
+.env.staging.local
+
+# Additional environment patterns
+*.env
+*.env.*
+.environment
+.env.backup
+.env.bak
 
 # Editor directories and files
 .vscode/*
@@ -42,3 +55,79 @@ coverage/
 # Temporary folders
 tmp/
 temp/
+
+# Security and secrets
+*.key
+*.pem
+*.p12
+*.p8
+*.cer
+*.crt
+*.der
+*.pfx
+*.p7b
+*.p7s
+*.srl
+*.csr
+*.crl
+*.key.pub
+secrets/
+secrets.json
+config/secrets/
+
+# API keys and tokens
+api-keys.json
+api-keys.txt
+tokens.json
+auth-tokens.txt
+credentials.json
+auth.json
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# Cache directories
+.cache/
+.npm/
+.eslintcache
+.stylelintcache
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# parcel-bundler cache (https://parceljs.org/)
+.parcel-cache
+
+# Next.js build output
+.next/
+out/
+
+# Nuxt.js build / generate output
+.nuxt
+
+# Storybook build outputs
+.out
+.storybook-out
+storybook-static
+
+# Temporary folders
+.tmp
+.temp
