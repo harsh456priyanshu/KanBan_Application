@@ -2,6 +2,8 @@
 
 A modern, full-stack **Project Management & Kanban Board Platform** built with the MERN stack. TaskFlow-Pro provides an intuitive interface for managing projects, tasks, and team collaboration with real-time updates and responsive design.
 
+NOTE: - deployed Links : https://kanban-application-frontend.onrender.com   , But Not functioning properly , If you can fix give me suggstions how to fix that , If you want to try , It will be better to clone it and Test the functionality because locally works well and Good 
+
 ![Project Status](https://img.shields.io/badge/Status-Active-green)
 ![Version](https://img.shields.io/badge/Version-1.0.0-blue)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
@@ -12,7 +14,6 @@ A modern, full-stack **Project Management & Kanban Board Platform** built with t
 - **Kanban Board Management** - Create, edit, and organize boards
 - **Drag & Drop Interface** - Intuitive task management with @hello-pangea/dnd
 - **List & Card Management** - Organize tasks in customizable lists
-- **Real-time Updates** - Live collaboration features
 - **User Authentication** - Secure JWT-based auth system
 - **Responsive Design** - Works perfectly on desktop, tablet, and mobile
 
